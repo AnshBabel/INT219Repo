@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Task</title>
+    <style>
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+            
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            top: 0%;
+            position: relative;
+        }
+
+        nav ul {
+            list-style: none;
+            position: absolute;
+            top: 20px;
+            right: 350px;
+            left: 300px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        
+        main {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        
+        .card {
+            background: white;
+            color: green;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: left;
+        }
+        #i1{
+            right: 10px; 
+        }
+
+        
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #2e8b57;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Your Website Task</h1>
+        <nav>
+            <ul><br><br>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card-container">
+            <div class="card">
+                <h2>About CSS</h2>
+                <br>
+                <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+            </div>
+            <div class="card">
+                <h2>Box Model</h2><br>
+                <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p>
+            </div>
+            <div class="card" id="i1">
+                <h2>Responsive Design</h2><br>
+                <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by [Ansh] <br><br> | Follow us on 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">LinkedIn</a> |
+        </p>
+    </footer>
+
+</body>
+</html>

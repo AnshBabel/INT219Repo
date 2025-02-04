@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documnet</title>
+</head>
+<body>
+    <h1>Form </h1>
+    <form action="">
+        <label for="uname">Enter Name:</label>
+        <input type="text" name="name1" id="uname" size="32" maxlength="8" placeholder="Enter your first name" required >
+        
+        <br><br>
+
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" size="32" maxlength="8" placeholder="Enter password" required>
+
+    </form>
+    <hr>
+
+<!-- Practice question
+1. Email form: 
+-->
+<h1>Email form </h1>
+<form action="">
+    <label for="uname">Enter email:</label>
+    <input type="email" name="email" id="uname" size="32" placeholder="Enter email id" required>
+    <br><br>
+    <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" size="32" maxlength="8" placeholder="Enter password" required>
+        <br><br>
+    <label for="Feedback">Enter your feedback: </label>
+    <br>
+    <textarea name="feedback" id="Feedback" rows="1" cols="50"> </textarea>
+    
+    <br><br>
+    <label for="hobby">Choose your hobby:</label>
+    <input type="checkbox" name="hobby" id="hobby" value="Cook">Cooking
+    <input type="checkbox" name="hobby" id="hobby"value="Dance">Dancing
+    <input type="checkbox" name="hobby" id="hobby"value="Read">Reading
+    <br><br>
+    <label for="gender">Choose your gender:</label>
+    <input type="radio" name="gender" id="gender" value="Male">Male
+    <input type="radio" name="gender" id="gender" value="Female">Female
+    <br><br>
+    <label for="Year">In which year:</label>
+    <input type="radio" name="year" id="Year" value="1st">1st year
+    <input type="radio" name="year" id="Year" value="2nd">2nd year
+    <input type="radio" name="year" id="Year" value="3rd">3rd year
+    <input type="radio" name="year" id="Year" value="4th">4th year
+    <br><br>
+    <label for="Programme">Choose your Programme:</label>
+    <input type="radio" name="programme" id="btech" value="btech">
+    <label for ="btech">Btech</labelfor>
+    <input type="radio" name="programme" id="bpa" value="bpa">
+    <label for ="bpa">BPA</label>
+    <input type="radio" name="programme" id="bca" value="BCA">
+    <label for ="bca">BCA</label>
+    <br><br>
+    <label for="statesel">Select state:</label>
+    <select name="statesel" id="statesel" size="3" multiple>
+        <option value="Choose your state">Choose your state</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="M.P.">M.P.</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Kerela" selected>Kerela</option>
+        <option value="Gujrat">Gujrat</option>
+    </select>
+    <br><br>
+
+    <label for="filesel">Choose file: </label>
+    <input type="file" name="filesel" id="filesel">
+
+    <br><br>
+    <input type="submit" name="submit form"  id="submit form" value="Submit form"  required >
+    <input type="reset" name="reset" id="reset" value="Reset form">
+    <input type="image" name="image" id="image" src="https://freepngimg.com/thumb/submit_button/25511-7-submit-button-picture.png" width="90" height="50">
+    
+
+</form>
+
+</body>
+</html>

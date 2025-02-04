@@ -1,0 +1,52 @@
+<!-- Parts of CSS Box model:-
+ 1. Margin box.
+ 2. Border box.
+ 3. Padding box.
+ 4. Content Box. -->
+
+<!-- Shorthand property:
+    border: 6px red dashed -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        div{
+            /*border-width: 5px;
+            border-color: green;        
+            border-style: solid;*/ 
+            border: 5px red dashed;     /*Short hand propery*/
+            border-top: 10px black dotted;
+            border-right: 10px blue solid;
+            border-bottom: 10px skyblue dashed;
+            border-left: 10px green solid;
+            /* border-width: 5p 10px 25px 65px
+            border-color: blue black pink black
+            border-style: solid dotted dashed solid */
+            
+            border-radius: 50px; /* '%' used for the more curve*/
+            width: 400px;
+            height: 400px;
+            background-color: orange;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: larger;
+            /* margin:auto; Top right bottom left */
+            /* margin: 50px 100px 150px 200px; */
+            margin:30px 20px 20px ; /*default value will be right and left same.*/
+            /* padding: 11px; */
+            padding:50px 120px 150px 200px;
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div>This is a front end class.</div>
+    
+</body>
+</html>
